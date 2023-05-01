@@ -14,40 +14,41 @@ body{
 
 }
 .main-box{
-    width: 160vh;
+    width: 110vh;
     height: 80vh;
-    /* background: blue; */
+    background: blue;
     margin: 0 auto;
     margin-top: 45px;
+    display: flex;
+    align-items: center;
 }
-.main-box .child-box{
-    width: 80%;
-    height: 100%;
-    /* background-color: black; */
-    margin: 0 auto;
-    padding: 50px 0px 0px 0px;
-    text-align: center;
-}
-.main-box .child-box .box-1{
+.main-box .box-1{
     width: 60%;
     height: 90%;
     background: rgb(255, 255, 236);
     margin: 0 auto;
+    margin-top: 25px;
+    display: flex;
     align-items: center;
     border: 7px;
     border-style: solid;
     border-image: linear-gradient(to bottom, rgb(51, 255, 0), rgb(255,0,0)) 1 100%;
-    text-align: center;
-    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
     
 }
-.main-box .child-box .box-1 form{
+.main-box .box-1 form{
     font-size: 20px;
+    text-align: center;
+    
 }
-.main-box .child-box .box-1 form label{
+.main-box .box-1 form label{
     font-family: 'Kalpurush', sans-serif;
 }
-.main-box .child-box .box-1 form h2{
+.main-box .box-1 form h2{
     text-align: center;
 }
 /* #lenth1{
@@ -69,12 +70,44 @@ input[type=number]::-webkit-outer-spin-button{
 h3{
     font-family: 'Kalpurush', sans-serif;
     font-weight: bolder;
+    font-size: 20px;
+
 
 }
 form h2{
     font-family: 'Kalpurush', sans-serif;
     font-weight: bold;
 }
-.main-box .child-box .box-1 form .btn{
+.main-box .box-1 form .btn{
     font-family: 'Kalpurush', sans-serif;
+}
+@media only screen and (max-width:1462px) {
+    .main-box{
+        width: 80vh;
+    }
+}
+@media only screen and (max-width:1104px) {
+    .main-box{
+        width: 60vh;
+    }
+}
+@media only screen and (max-width:829px) {
+    .main-box{
+        width: 50vh;
+    }
+}
+@media only screen and (max-width:682px) {
+    .main-box{
+        width: 40vh;
+    }
+}
+@media only screen and (max-width:560px) {
+    .main-box{
+        width: 30vh;
+    }
+}
+@media only screen and (max-width:416px) {
+    .main-box{
+        width: 300vh;
+    }
 }
